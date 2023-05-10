@@ -105,7 +105,7 @@
             this.BtnOpenSaveFile.Name = "BtnOpenSaveFile";
             this.BtnOpenSaveFile.Size = new System.Drawing.Size(90, 30);
             this.BtnOpenSaveFile.TabIndex = 0;
-            this.BtnOpenSaveFile.Text = "Open Savefile";
+            this.BtnOpenSaveFile.Text = "開啟存檔";
             this.BtnOpenSaveFile.UseVisualStyleBackColor = true;
             this.BtnOpenSaveFile.Click += new System.EventHandler(this.BtnOpenSaveFile_Click);
             // 
@@ -136,7 +136,7 @@
             this.TabGeneral.Padding = new System.Windows.Forms.Padding(3);
             this.TabGeneral.Size = new System.Drawing.Size(312, 155);
             this.TabGeneral.TabIndex = 0;
-            this.TabGeneral.Text = "General";
+            this.TabGeneral.Text = "一般";
             this.TabGeneral.UseVisualStyleBackColor = true;
             // 
             // InputStamina
@@ -202,7 +202,7 @@
             this.LblStamina.Name = "LblStamina";
             this.LblStamina.Size = new System.Drawing.Size(45, 13);
             this.LblStamina.TabIndex = 2;
-            this.LblStamina.Text = "Stamina";
+            this.LblStamina.Text = "耐力";
             // 
             // LblHearts
             // 
@@ -211,7 +211,7 @@
             this.LblHearts.Name = "LblHearts";
             this.LblHearts.Size = new System.Drawing.Size(38, 13);
             this.LblHearts.TabIndex = 1;
-            this.LblHearts.Text = "Hearts";
+            this.LblHearts.Text = "生命";
             // 
             // LblRupees
             // 
@@ -220,7 +220,7 @@
             this.LblRupees.Name = "LblRupees";
             this.LblRupees.Size = new System.Drawing.Size(44, 13);
             this.LblRupees.TabIndex = 0;
-            this.LblRupees.Text = "Rupees";
+            this.LblRupees.Text = "盧比";
             // 
             // TabSwords
             // 
@@ -343,7 +343,7 @@
             this.TabBows.Name = "TabBows";
             this.TabBows.Size = new System.Drawing.Size(312, 155);
             this.TabBows.TabIndex = 2;
-            this.TabBows.Text = "Bows";
+            this.TabBows.Text = "弓";
             this.TabBows.UseVisualStyleBackColor = true;
             // 
             // LblBowSlot4
@@ -447,7 +447,7 @@
             this.TabShields.Name = "TabShields";
             this.TabShields.Size = new System.Drawing.Size(312, 155);
             this.TabShields.TabIndex = 3;
-            this.TabShields.Text = "Shields";
+            this.TabShields.Text = "盾";
             this.TabShields.UseVisualStyleBackColor = true;
             // 
             // LblShieldSlot4
@@ -551,7 +551,7 @@
             this.TabArmor.Name = "TabArmor";
             this.TabArmor.Size = new System.Drawing.Size(312, 155);
             this.TabArmor.TabIndex = 4;
-            this.TabArmor.Text = "Armor";
+            this.TabArmor.Text = "鎧";
             this.TabArmor.UseVisualStyleBackColor = true;
             // 
             // LblArmorSlot4
@@ -647,7 +647,7 @@
             this.BtnPatchSaveFile.Name = "BtnPatchSaveFile";
             this.BtnPatchSaveFile.Size = new System.Drawing.Size(90, 30);
             this.BtnPatchSaveFile.TabIndex = 3;
-            this.BtnPatchSaveFile.Text = "Patch Savefile";
+            this.BtnPatchSaveFile.Text = "覆蓋寫入存檔";
             this.BtnPatchSaveFile.UseVisualStyleBackColor = true;
             this.BtnPatchSaveFile.Click += new System.EventHandler(this.BtnPatchSaveFile_Click);
             // 
@@ -680,7 +680,7 @@
             this.BtnReset.Name = "BtnReset";
             this.BtnReset.Size = new System.Drawing.Size(90, 30);
             this.BtnReset.TabIndex = 7;
-            this.BtnReset.Text = "Unload Savefile";
+            this.BtnReset.Text = "退出關閉存檔";
             this.BtnReset.UseVisualStyleBackColor = true;
             this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 

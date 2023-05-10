@@ -39,7 +39,7 @@ namespace TOTK_SaveGame_Editor
 
             if (!_SaveFile.IsLoaded)
             {
-                MessageBox.Show("Invalid progress.sav!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("無效的 progress.sav!", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -124,7 +124,7 @@ namespace TOTK_SaveGame_Editor
         {
             if (_SaveFile == null || !_SaveFile.IsLoaded)
             {
-                MessageBox.Show("Invalid Savefile!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("無效的存檔!", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -158,7 +158,7 @@ namespace TOTK_SaveGame_Editor
 
             _SaveFile.PatchSaveFile();
 
-            MessageBox.Show("Successfully patched savefile!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("已成功更新存檔!", "完成", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
